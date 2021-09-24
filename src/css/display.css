@@ -1,0 +1,22 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+}
+
+.display input {
+  background: none;
+  width: 100%;
+  text-align: right;
+  padding: 0.1rem 0;
+  border: none;
+  outline: none;
+}
+
+.display input#history-expressions {
+  font-size: 0.8rem;
+}
+
+.display input#input-display {
+  font-size: 2rem;
+}
